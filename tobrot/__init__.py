@@ -85,7 +85,7 @@ MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START = int(
     os.environ.get("MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START", 600)
 )
 MAX_TG_SPLIT_FILE_SIZE = int(os.environ.get(
-    "MAX_TG_SPLIT_FILE_SIZE", "2040109465"))
+    "MAX_TG_SPLIT_FILE_SIZE", "1887436800"))
 # add config vars for the display progress
 FINISHED_PROGRESS_STR = os.environ.get("FINISHED_PROGRESS_STR", "■")
 UN_FINISHED_PROGRESS_STR = os.environ.get("UN_FINISHED_PROGRESS_STR", "□")
@@ -101,7 +101,7 @@ GLEECH_ZIP_COMMAND = os.environ.get("GLEECH_ZIP_COMMAND", "tarsync")
 YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl")
 GYTDL_COMMAND = os.environ.get("GYTDL_COMMAND", "ytdlsync")
 RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "")
-DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "CendrawasihLeech")
+DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "DeLimaw")
 INDEX_LINK = os.environ.get("INDEX_LINK", "")
 TELEGRAM_LEECH_COMMAND = os.environ.get("TELEGRAM_LEECH_COMMAND", "tgsync")
 TELEGRAM_LEECH_UNZIP_COMMAND = os.environ.get(
